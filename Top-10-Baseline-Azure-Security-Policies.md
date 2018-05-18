@@ -35,11 +35,6 @@ Use the information in the table below as a guideline when creating Azure polici
 Use this procedure to build a baseline policy based on geographical or sovereign considerations.  
 
 
-### Available Azure Regions:   
-australiaeast, australiasoutheast, brazilsouth, canadacentral, canadaeast, centralus, centralindia, eastus, eastus2, eastasia, 
-japanwest, japaneast, koreacentral, koreasouth, northeurope, northcentralus, southcentralus, southindia, southeastasia, uksouth, ukwest, 
-westus, westcentralus, westus2, westeurope, westindia,   
-  
 
 1. Access the policy definition by going to *Azure Quickstart > Azure Policy > Samples > [Allowed Locations](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/allowed-locs)*  
 
