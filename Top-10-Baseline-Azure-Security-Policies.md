@@ -14,220 +14,29 @@ Use the information in the table below as a guideline when creating Azure polici
 
 
 
-
-Policy  
- 
-
-
-Definition  
- 
-
-
-Scope  
- 
-
-
-Parameters  
- 
-
-
-
-Enforce Tag and its Value  
- 
-
-
-Requires a tag and a value to be applied to a resource   
- 
-
-
-Apply to resources within Resource Group  
- 
-
-
-Example: costCode, businessowner, vmRole, compositeApp, vmWorkload, deploymentStage  
- 
-
-
-
-Enforce Allowed Locations  
- 
-
-
-Ensures that only approved locations are used when deploying resources to a region  
- 
-
-
-Apply to subscription or to Resource Group  
- 
-
-
-Example: Canada Central, Canada East  
- 
-
-
-
-Enforce Not Allowed Types  
- 
-
-
-This policy prohibits the deployment of specified resource types. Specify an array of the resource types to block  
- 
-
-
-Applies to whatever Resource Group that contains references that you do not you do not want to be accessible through the internet  
- 
-
-
-Example: Microsoft.network/PublicIPAddresses  
- 
-
-
-
-Monitor VM Vulnerabilities in Security Center [Preview]  
- 
-
-
-Monitors vulnerabilities detected by vulnerability assessment solution and VMs without a vulnerability assessment solution in Azure Security Center as recommendations.  
- 
-
-
-Subscription  
- 
-
-
-N/A  
- 
-
-
-
-Monitor Unprotected Web Application in Security Center [Preview]  
- 
-
-
-Web applications without a web application firewall protection will be monitored  by Azure security center as recommendations  
- 
-
-
-Subscription  
- 
-
-
-N/A  
- 
-
-
-
-Monitor Permissive Network Access in Security Center [Preview]  
- 
-
-
-Network security groups with rules that are too permissive will be monitored by Azure security center as recommendations  
- 
-
-
-Subscription  
- 
-
-
-N/A  
- 
-
-
-
-Monitor Missing System Updates [Preview]  
- 
-
-
-Missing security system updates on your servers will be monitored by Azure security center as recommendations.  
- 
-
-
-Subscription  
- 
-
-
-N/A  
- 
-
-
-
-Monitor Unprotected Network Endpoints [Preview]  
- 
-
-
-Network endpoints without Next Generation firewall protection will be monitored by Azure security center as recommendations.  
- 
-
-
-Subscription  
- 
-
-
-N/A  
- 
-
-
-
-Monitor Missing Endpoint Protection [Preview]  
- 
-
-
-Servers installed without an installed endpoint protection agent will be monitored by Azure security center as recommendations  
- 
-
-
-Subscription  
- 
-
-
-N/A  
- 
-
-
-
-Monitor OS Vulnerabilities OS [Preview]  
- 
-
-
-Servers which do not satisfy the configured baseline will be monitored by Azure security center as recommendations  
- 
-
-
-Subscription  
- 
-
-
-N/A  
- 
-
-
-  
-
-
-  
-
-
-  
-
-
-Procedure:  How to deploy a Geo-compliant/Data Sovereignty baseline policy    
-
-
-  
-
+| __Policy__ | __Definition__ |__Scope__ | __Parameters__ |
+|------------------------------|----------------------------|------------------|--------------------|
+| [Enforce Tag and Its Value](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/enforce-tag-val)  | Requires a tag and a value to be applied to a resource   | Apply to resources within Resource Group  | i.e. costCode, businessowner, vmRole, compositeApp, vmWorkload, deploymentStage | 
+| [Enforce Allowed Locations](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/allowed-locs)     | Ensures that only approved locations are used when deploying resources to a region | Apply to subscription or to Resource Group    | i.e. Canada Central, Canada East 
+| [Enforce Not Allowed Types](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/not-allowed-res-type#sample-template)       | This policy prohibits the deployment of specified resource types. Specify an array of the resource types to block  | Applies to whatever Resource Group that contains references that you do not you do not want to be accessible through the internet     | i.e. Microsoft.network/PublicIPAddresses
+| Monitor VM Vulnerabilities in Security Center (In Preview)     | Monitors vulnerabilities detected by vulnerability assessment solution and VMs without a vulnerability assessment solution in Azure Security Center as recommendations.   | Subscription  | Not Applicable
+| Monitor Unprotected Web Application in Security Center (In Preview)        | Web applications without a web application firewall protection will be monitored  by Azure security center as recommendations  | Subscription | Not Applicable|
+| Monitor Permissive Network Access in Security Center (In Preview)       | Network security groups with rules that are too permissive will be monitored by Azure security center as recommendations | Subscription | Not Applicable|
+| Monitor Missing System Updates (In Preview)     | Missing security system updates on your servers will be monitored by Azure security center as recommendations. | Subscription | Not Applicable|
+| Monitor Unprotected Network Endpoints (In Preview)     | Network endpoints without Next Generation firewall protection will be monitored by Azure security center as recommendations.  | Subscription | Not Applicable|
+| Monitor Missing Endpoint Protection (In Preview)     | Servers installed without an installed endpoint protection agent will be monitored by Azure security center as recommendations   | Subscription | Not Applicable|
+|Monitor OS Vulnerabilities OS    | Servers which do not satisfy the configured baseline will be monitored by Azure security center as recommendations   | Subscription | Not Applicable|
+
+
+
+
+## Procedure:  How to Deploy a Geo-Compliant/Data Sovereignty Baseline Policy    
 
 Use this procedure to build a baseline policy based on geographical or sovereign considerations.  
 
 
-  
-
-
-Available Azure Regions:   
-
-australiaeast, australiasoutheast  
-
-
-Brazilsouth  
+### Available Azure Regions:   
+australiaeast, australiasoutheast, Brazilsouth  
 
 
 canadacentral, canadaeast, centralus, centralindia  
