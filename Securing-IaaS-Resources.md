@@ -1,4 +1,6 @@
 
+
+
 In most infrastructure as a service (IaaS) scenarios, Azure virtual machines (VMs) are the main workload for organizations that use cloud computing.  
 
 With Azure, you can build security-enhanced, compliant solutions that: 
