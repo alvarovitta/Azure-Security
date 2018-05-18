@@ -1,70 +1,57 @@
 
+# Evaluating your On-Premise Security Policies 
+
 Security policies are critical in forming the foundation for securing the systems, applications and network for your organization. 
 
 
- 
-
-
 A security policy comprises of objectives for your organization, rules for your end users and administrators to adhere by and requirements for systems and applications to follow to ensure the security foundation of your organization. 
-
-
  
 
 
- 
-
-
-Preparation 
-
-
- 
-
-What are your current security policies around your existing systems and applications? 
-
-
-How do end users and customers access your systems and applications? 
-
-
-What types of security controls implemented for Identity and Access Management of your user accounts? How are they enforced on your systems/applications? 
-
-
-What are your data protection and retention policies? What are your data classification policies? 
-
-
-What are your network security policies? 
-
-
-What are your security policies around security updates and patching of your systems and applications? 
-
-
-What are you security policies around segregation of customer data? 
-
-
-Do you have security policies around privileged access controls for the applications and systems that house sensitive and proprietary data? 
+## Preparation 
 
 
 
- 
+- What are your current security policies around your existing systems and applications? 
 
+
+- How do end users and customers access your systems and applications? 
+
+
+- What types of security controls implemented for Identity and Access Management of your user accounts? How are they enforced on your systems/applications? 
+
+
+- What are your data protection and retention policies? What are your data classification policies? 
+
+
+- What are your network security policies? 
+
+
+- What are your security policies around security updates and patching of your systems and applications? 
+
+
+- What are you security policies around segregation of customer data? 
+
+
+- Do you have security policies around privileged access controls for the applications and systems that house sensitive and proprietary data? 
+
+
+
+
+## Guidance 
 
  
 
-
-Guidance 
-
-
- 
-
-Determine the security policies around your existing systems and applications 
+- Determine the security policies around your existing systems and applications 
 
 
-Determine your identity and access management security policies 
+- Determine your identity and access management security policies 
 
 
-Determine your data protection policies 
+- Determine your data protection policies 
 
 
-Determine your network security policies 
+- Determine your network security policies 
 
 
 
@@ -74,7 +61,6 @@ Determine your network security policies
  
 
 
-Next steps 
+## Next steps 
 
-
-Evaluating your Compliance Policies 
+[Evaluating your Compliance Policies](Evaluating-your-On-Premise-Compliance-Policies.md)
