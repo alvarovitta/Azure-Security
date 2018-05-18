@@ -36,243 +36,50 @@ Use this procedure to build a baseline policy based on geographical or sovereign
 
 
 ### Available Azure Regions:   
-- australiaeast, australiasoutheast, Brazilsouth  
-
-
-- canadacentral, canadaeast, centralus, centralindia  
-
-
-- eastus, eastus2, eastasia  
-
-
-- japanwest, japaneast  
-
-
-- koreacentral, koreasouth,  
-
-
-- Northeurope, northcentralus  
-
-
-- southcentralus, southindia, southeastasia  
-
-
-- uksouth, ukwest  
-
-
-- westus, westcentralus, westus2, westeurope, westindia,   
-
-
-
+australiaeast, australiasoutheast, brazilsouth, canadacentral, canadaeast, centralus, centralindia, eastus, eastus2, eastasia, 
+japanwest, japaneast, koreacentral, koreasouth, northeurope, northcentralus, southcentralus, southindia, southeastasia, uksouth, ukwest, 
+westus, westcentralus, westus2, westeurope, westindia,   
   
 
-1. Access the policy definition  
+1. Access the policy definition by going to *Azure Quickstart > Azure Policy > Samples > [Allowed Locations](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/allowed-locs)*  
+
+2. Deploy the policy to Azure using [Azure Template](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/allowed-locs#sample-template) | [PowerShell](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/allowed-locs#deploy-with-powershell) | [Azure CLI](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/allowed-locs#deploy-with-azure-cli)
+
+3. Assign the policy to Azure using [PowerShell](https://docs.microsoft.com/en-us/powershell/module/azurerm.resources/new-azurermpolicyassignment?view=azurermps-5.1.1#examples)
+
+4. Define the policy parameters by using the following parameter values: *canadacentral, canadaeast, centralus, eastus, eastus2,westus, northcentralus, southcentralus, westcentralus, westus2*
 
 
-
-Azure Quickstart > Azure Policy > Samples > Allowed Locations  
-
-
-  
-
-2. Deploy the policy to Azure  
-
-
-
-Use:  Azure Template | PowerShell | Azure CLI  
-
-
-  
-
-3. Assign the policy  
-
-
-
-Use PowerShell  
-
-
-  
-
-4. Define the policy parameters  
-
-
-
-Use the following parameter values:  
-
-
--PolicyParameters canadacentral, canadaeast, centralus, eastus, eastus2,westus, northcentralus, southcentralus, westcentralus,  
- westus2  
-
-
-  
-
-
-  
-
-
-  
-
-
-## Procedure:  How to deploy a cost management baseline policy   
-
-
-  
-
+## Procedure:  How to Deploy a Cost Management Baseline Policy   
 
 Use this procedure to build a baseline policy based on cost management.  
-
-
-   
-
-1. Access the policy definition  
-
-
-
-Azure Quickstart > Azure Policy > Samples > Not Allowed Resource Types  
-
-
   
 
-2. Deploy the policy to Azure  
+1. Access the policy definition by going to *Azure Quickstart > Azure Policy > Samples > [Not Allowed Resource Types](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/not-allowed-res-type)*  
+
+2. Deploy the policy to Azure using [Azure Template](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/not-allowed-res-type#sample-template) | [PowerShell](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/not-allowed-res-type#deploy-with-powershell) | [Azure CLI](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/not-allowed-res-type#deploy-with-azure-cli)
+
+3. Assign the policy to Azure using [PowerShell](https://docs.microsoft.com/en-us/powershell/module/azurerm.resources/new-azurermpolicyassignment?view=azurermps-5.1.1#examples)
+
+4. Define the policy parameters by using the following parameter values: *Standard_G1, Standard_G2,Standard_G3, Standard_G4, Standard_G5, Standard_GS1, Standard_GS2, Standard_GS3, Standard_GS4, Standard_GS5, Standard_GS5-8, Standard_GS5-16, Microsoft.HDInsight/clusters*
+
+**Note**: Available VMs: get-azurevmsize <location>
 
 
-
-Use:  Azure Template | PowerShell | Azure CLI  
-
-
-  
-
-3. Assign the policy  
-
-
-
-Use PowerShell  
-
-
-  
-
-4. Define the policy parameters  
-
-
-
-Use the following parameter values:  
-
-
--PolicyParameters  Standard_G1, Standard_G2,Standard_G3, Standard_G4, Standard_G5, Standard_GS1, Standard_GS2,  
- Standard_GS3, Standard_GS4, Standard_GS5, Standard_GS5-8, Standard_GS5-16, Microsoft.HDInsight/clusters  
-
-
-Note: Available VMs: get-azurevmsize <location>  
-
-
-   
-
-
-  
-
-
-## Procedure:  How to deploy a required tags baseline policy   
-
-
-  
-
+## Procedure:  How to Deploy a Required Tags Baseline Policy   
 
 Use this procedure to build a baseline policy based on required tags.  
 
 
-  
+1. Access the policy definition by going to *Azure Quickstart > Azure Policy > Samples > [Enforce Tag](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/enforce-tag-val)*  
 
-1. Define the policy definition  
+2. Deploy the policy to Azure using [Azure Template](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/enforce-tag-val#sample-template) | [PowerShell](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/enforce-tag-val#deploy-with-powershell) | [Azure CLI](https://docs.microsoft.com/en-us/azure/azure-policy/scripts/enforce-tag-val#deploy-with-azure-cli)
 
+3. Assign the policy to Azure using [PowerShell](https://docs.microsoft.com/en-us/powershell/module/azurerm.resources/new-azurermpolicyassignment?view=azurermps-5.1.1#examples)
 
-
-Azure Quickstart > Azure Policy > Samples > Enforce Tag  
-
-
-  
-
-2. Deploy the policy to Azure  
-
-
-
-Use:  Azure Template | PowerShell | Azure CLI  
-
-
-  
-
-3. Assign the policy  
-
-
-
-Use PowerShell  
-
-
-  
-
-4. Define the policy parameters  
-
-
-
-Use the following parameter values:  
-
-
-Name of required tag, Value of required tag  
-
-
-   
-
-
-  
-
-
-## Procedure:  How to enforce policy naming conventions  
-
-
-  
-
-
-Use this procedure to enforce naming conventions.  
-
-
-  
-
-1. Define the policy definition  
-
-
-
-Azure Quickstart > Azure Policy > Samples > Enforce Tag  
-
-
-  
-
-2. Deploy the policy to Azure  
-
-
-
-Use:  Azure Template | PowerShell | Azure CLI  
-
-
-  
-
-3. Assign the policy  
-
-
-
-Use PowerShell  
-
-
-  
-
-4. Define the policy parameters  
-
-
-
-Use the following parameter values:  Regular expression pattern  
-
-
-  
+4. Define the policy parameters by using the following parameter values: *Regular expression pattern*  
 
 
 ## Next Steps 
 
-Securing your Azure Resources 
+[Securing your Azure Resources](Securing-your-Azure-Resources.md)
