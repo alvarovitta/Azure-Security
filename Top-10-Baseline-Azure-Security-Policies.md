@@ -36,37 +36,37 @@ Use this procedure to build a baseline policy based on geographical or sovereign
 
 
 ### Available Azure Regions:   
-australiaeast, australiasoutheast, Brazilsouth  
+- australiaeast, australiasoutheast, Brazilsouth  
 
 
-canadacentral, canadaeast, centralus, centralindia  
+- canadacentral, canadaeast, centralus, centralindia  
 
 
-eastus, eastus2, eastasia  
+- eastus, eastus2, eastasia  
 
 
-japanwest, japaneast  
+- japanwest, japaneast  
 
 
-koreacentral, koreasouth,  
+- koreacentral, koreasouth,  
 
 
-Northeurope, northcentralus  
+- Northeurope, northcentralus  
 
 
-southcentralus, southindia, southeastasia  
+- southcentralus, southindia, southeastasia  
 
 
-uksouth, ukwest  
+- uksouth, ukwest  
 
 
-westus, westcentralus, westus2, westeurope, westindia,   
+- westus, westcentralus, westus2, westeurope, westindia,   
 
 
 
   
 
-Access the policy definition  
+1. Access the policy definition  
 
 
 
@@ -75,7 +75,7 @@ Azure Quickstart > Azure Policy > Samples > Allowed Locations
 
   
 
-Deploy the policy to Azure  
+2. Deploy the policy to Azure  
 
 
 
@@ -84,7 +84,7 @@ Use:  Azure Template | PowerShell | Azure CLI
 
   
 
-Assign the policy  
+3. Assign the policy  
 
 
 
@@ -93,7 +93,7 @@ Use PowerShell
 
   
 
-Define the policy parameters  
+4. Define the policy parameters  
 
 
 
@@ -113,7 +113,7 @@ Use the following parameter values:
   
 
 
-Procedure:  How to deploy a cost management baseline policy   
+## Procedure:  How to deploy a cost management baseline policy   
 
 
   
@@ -124,7 +124,7 @@ Use this procedure to build a baseline policy based on cost management.
 
    
 
-Access the policy definition  
+1. Access the policy definition  
 
 
 
@@ -133,7 +133,7 @@ Azure Quickstart > Azure Policy > Samples > Not Allowed Resource Types
 
   
 
-Deploy the policy to Azure  
+2. Deploy the policy to Azure  
 
 
 
@@ -142,7 +142,7 @@ Use:  Azure Template | PowerShell | Azure CLI
 
   
 
-Assign the policy  
+3. Assign the policy  
 
 
 
@@ -151,7 +151,7 @@ Use PowerShell
 
   
 
-Define the policy parameters  
+4. Define the policy parameters  
 
 
 
@@ -171,7 +171,7 @@ Note: Available VMs: get-azurevmsize <location>
   
 
 
-Procedure:  How to deploy a required tags baseline policy   
+## Procedure:  How to deploy a required tags baseline policy   
 
 
   
@@ -182,7 +182,7 @@ Use this procedure to build a baseline policy based on required tags.
 
   
 
-Define the policy definition  
+1. Define the policy definition  
 
 
 
@@ -191,7 +191,7 @@ Azure Quickstart > Azure Policy > Samples > Enforce Tag
 
   
 
-Deploy the policy to Azure  
+2. Deploy the policy to Azure  
 
 
 
@@ -200,7 +200,7 @@ Use:  Azure Template | PowerShell | Azure CLI
 
   
 
-Assign the policy  
+3. Assign the policy  
 
 
 
@@ -209,7 +209,7 @@ Use PowerShell
 
   
 
-Define the policy parameters  
+4. Define the policy parameters  
 
 
 
@@ -225,7 +225,7 @@ Name of required tag, Value of required tag
   
 
 
-Procedure:  How to enforce policy naming conventions  
+## Procedure:  How to enforce policy naming conventions  
 
 
   
@@ -236,7 +236,7 @@ Use this procedure to enforce naming conventions.
 
   
 
-Define the policy definition  
+1. Define the policy definition  
 
 
 
@@ -245,7 +245,7 @@ Azure Quickstart > Azure Policy > Samples > Enforce Tag
 
   
 
-Deploy the policy to Azure  
+2. Deploy the policy to Azure  
 
 
 
@@ -254,7 +254,7 @@ Use:  Azure Template | PowerShell | Azure CLI
 
   
 
-Assign the policy  
+3. Assign the policy  
 
 
 
@@ -263,7 +263,7 @@ Use PowerShell
 
   
 
-Define the policy parameters  
+4. Define the policy parameters  
 
 
 
@@ -273,7 +273,6 @@ Use the following parameter values:  Regular expression pattern
   
 
 
-Next Steps 
-
+## Next Steps 
 
 Securing your Azure Resources 
