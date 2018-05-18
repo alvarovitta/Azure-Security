@@ -17,15 +17,11 @@ Use the following questions to assist in designing your network security strateg
 - When should native Azure security features be used versus third-party appliances or services? 
 
 The following diagram shows various layers of security Azure provides to customers. These layers are both native to the Azure platform itself and customer-defined features: 
- 
+
+
 
 Machine generated alternative text: Azure Deployments Network Virtual NSG& Virtual Network Public IP Isolation Appliances UDR Azure DDoS Intemet 
 
-
- 
-
-
- 
 
 
 ## Guidance 
@@ -75,13 +71,5 @@ The following lists the best practices when designing your Azure network securit
 
 
 
- 
-
-
- 
-
-
-Next Steps 
-
-
+## Next Steps 
 Securing and Encrypting Data 
