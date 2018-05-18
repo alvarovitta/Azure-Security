@@ -1,5 +1,4 @@
-
-# Designing your Azure Policies
+# Designing your Azure Security Policies
 
 Use this section to follow supplemental design and guidance on how implement Azure security policies. 
 
