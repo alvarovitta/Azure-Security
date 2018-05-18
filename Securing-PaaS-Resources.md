@@ -1,4 +1,4 @@
-# Securing-PaaS-Resources
+# Securing PaaS Resources
 In Platform as a service (PaaS) scenarios, web apps, storage and databases are the main workloads for organizations that use cloud computing. By nature Paas services have public endpoint, we need to be careful on their security. 
  
 - Azure App Service is a PaaS offering that lets you create web and mobile apps for any platform or device and connect to data anywhere, in the cloud or on-premises.  
