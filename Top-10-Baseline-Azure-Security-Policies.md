@@ -1,7 +1,7 @@
 
 # Top 10 Baseline Azure Security Policies
 
-Use the following guidance as described in this section to configure the top 10 baseline security policies you should start with in Azure . As your organization security and compliance evolves, more azure policies will need to be implemented.  
+Use the following guidance as described in this section to configure the top 10 baseline security policies you should start with in Azure . As your organization security and compliance policies evolve, more azure policies will need to be implemented.  
 
 
 
