@@ -1,5 +1,4 @@
-
-# Evaluating your On-Premise Security Policies 
+# Evaluating your On-Premises Security Policies 
 
 Security policies are critical in forming the foundation for securing the systems, applications and network for your organization. 
 
