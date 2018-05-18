@@ -24,16 +24,17 @@ Use the analysis results from the list below in tandem with the feedback from yo
 
 
 
+
  
 
 
 ## Next steps 
 
-Evaluating your Security Policies 
+[Evaluating your Security Policies](Evaluating-your-On-Premise-Security-Policies.md)
 
 
 
  
 
-Evaluating your Compliance Policies 
+[Evaluating your Compliance Policies](Evaluating-your-On-Premise-Compliance-Policies.md)
 
