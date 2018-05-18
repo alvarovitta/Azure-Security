@@ -1,26 +1,26 @@
 
+# Implementing your Azure Security Policies
+
 Based on the business requirements and on-premise security and compliance policies gathered by your organization, you can now use this section to design and implement those requirements and policies on Azure. 
 
 
  
 
 
- 
-
 
  
 
 
-Next steps 
+## Next steps 
 
 
-2.1 Establishing your Security Baseline (Azure Security center) 
+[Establishing your Security Baseline](Establishing-your-Security-Baseline.md) 
 
 
-2.2 Designing your Azure Security Policies (branavan) 
+[Designing your Azure Security Policies](Designing-your-Azure-Security-Policies.md)
 
 
-2.3 Top 10 Baseline Azure Security Policies (Branavan) 
+[Top 10 Baseline Azure Security Policies](Top-10-Baseline-Azure-Security-Policies.md) 
 
 
  
