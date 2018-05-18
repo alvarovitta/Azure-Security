@@ -70,7 +70,7 @@ Use the following tables to collect policy information so that you can create po
 | Exclude Scope     | i.e. Resource Group | 
 
 
-## Procedure: How to create and assign a resource policy 
+## Procedure: How to Create and Assign a Resource Policy 
 
 
 
@@ -82,15 +82,11 @@ Use this procedure to create and manage policies to enforce compliance. The Subs
 2. Create a policy to enforce compliance. Define the policy in terms of rules, scope, exceptions, and effect. 
 
 
-Refer to the following: 
+3. Refer to the following: 
 
-Assign a policy 
-
-
-Implement a new custom policy 
-
-
-Create a policy definition with PowerShell 
+- [Assign a policy](https://docs.microsoft.com/en-us/azure/azure-policy/create-manage-policy#assign-a-policy) 
+- [Implement a new custom policy](https://docs.microsoft.com/en-us/azure/azure-policy/create-manage-policy#implement-a-new-custom-policy) 
+- [Create a policy definition with PowerShell](https://docs.microsoft.com/en-us/azure/azure-policy/create-manage-policy#create-a-policy-definition-with-powershell) 
 
 
 
@@ -98,43 +94,26 @@ Create a policy definition with PowerShell
  
 
 
-Procedure: How to create and assign an initiative policy definition  
-
-
- 
+## Procedure: How to Create and Assign an Initiative Policy Definition  
 
 
 Use this procedure to manage policies at scale, leverage initiatives. The Subscription Owner uses Azure Portal, PowerShell, or Azure CLI.  
-
-
  
 
-Sign into the Azure portal 
 
+1. Sign into the Azure portal and Login as the Subscription Owner, see:  [Azure Portal](http://azure.portal.com/)
 
+2. Create a policy to enforce compliance. Define the policy rules, scope, exceptions, and effect. 
 
-Login as the Subscription Owner, see:  Azure Portal 
+3. Refer to the following: 
 
-
- 
-
-Create and manage policies to enforce compliance 
-
-
-
-Create a policy to enforce compliance. Define the policy rules, scope, exceptions, and effect. 
-
-
-Refer to the following: 
-
-Initiative Assignment 
-
+- [Initiative Assignment](https://docs.microsoft.com/en-ca/azure/azure-policy/azure-policy-introduction#initiative-assignment) 
 
 
  
 
 
-Next Steps 
+## Next Steps 
 
 
-Top 10 Baseline Azure Security Policies 
+[Top 10 Baseline Azure Security Policies](Top-10-Baseline-Azure-Security-Policies.md)
