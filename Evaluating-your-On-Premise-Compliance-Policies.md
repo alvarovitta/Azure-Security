@@ -1,5 +1,5 @@
 
-# Evaluating your On-Premise Compliance Policies
+# Evaluating your On-Premises Compliance Policies
 
 As organizations expand their use of cloud technologies, the complexity and scope of standards and regulations continue to evolve. Organizations need to know that their compliance standards will be met, and that compliance will evolve as regulations change over time. 
 
