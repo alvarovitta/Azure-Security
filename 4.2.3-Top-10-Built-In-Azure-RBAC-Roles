@@ -2,4 +2,6 @@
 
 ## Guidance
 
-Use 
+Listed below are the top 10 Azure RBAC Roles. Use the role information as you begin to plan your design of your delegation model
+
+Additional roles can be added as your organization adopts additional Office 365 services and as teams are added in the lifecycle management of the azure AD tenant. 
