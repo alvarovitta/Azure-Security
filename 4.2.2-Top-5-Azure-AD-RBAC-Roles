@@ -27,14 +27,3 @@ Additional roles can be added as your organization adopts additional Office 365 
 
 5. **Conditional Access Administrator**: Users with this role have the ability to manage Azure AD conditional access settings. 
 
-
-## Procedure
-
-Use this procedure to learn how to assign an administrative role to a user in Azure Active Directory (Azure AD):
-
-1. Sign in to the [Azure AD admin center](https://aad.portal.azure.com/) with an account that's a global administrator for the directory.
-
-2. Follow the steps to [Assign an Azure AD RBAC](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-users-assign-role-azure-portal) role o a user. 
-
-
-## Next Steps
