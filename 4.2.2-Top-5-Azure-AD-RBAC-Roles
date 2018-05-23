@@ -1,0 +1,40 @@
+# Top 5 Azure AD RBAC Roles
+
+## Guidance 
+
+Listed below are the top five Azure AD RBAC Roles. Use the role information as you begin to plan your design of your delegation model
+
+Additional roles can be added as your organization adopts additional Office 365 services and as teams are added in the lifecycle management of the azure AD tenant. 
+
+1. **Global Administrator**: Users in this role have access to all administrative features in Azure Active Directory, as well as services that federate to Azure AD such as Exchange Online, SharePoint Online, and Skype for Business Online. The individual who signs up for the Azure AD tenant automatically becomes a Global Administrator. Only Global Administrators can assign other administrator roles. There can be more than one Global Administrator in an organization. Global Administrators can reset the password for any user and all other administrators. 
+
+2. **Security Administrator**: Users in this role have all of the read-only privileges of the Security Reader role, plus the ability to manage configuration for security-related services:  
+
+    - Azure Active Directory Identity Protection 
+
+   - Azure Information Protection,  
+
+   - Privileged Identity Management 
+
+    - Office 365 Security & Compliance Center.  
+
+  
+  For more information about Office 365 permissions click on this link: [Permissions in the Office 365 Security & Compliance Center](https://support.office.com/en-us/article/permissions-in-the-office-365-security-compliance-center-d10608af-7934-490a-818e-e68f17d0e9c1?ui=en-US&rs=en-US&ad=US).
+
+3. **User Account Administrator**: Users with this role can create and manage all aspects of users and groups. Additionally, this role includes the ability to manage support tickets and monitors service health. Some restrictions apply. For example, this role does not allow deleting a Global Administrator. User Account Administrators can change passwords for users, Helpdesk administrators, and other users. 
+
+4. **Billing Administrator**: Users with this role have the ability to make purchases, manage subscriptions, manage support tickets, and monitor service health. 
+
+5. **Conditional Access Administrator**: Users with this role have the ability to manage Azure AD conditional access settings. 
+
+
+## Procedure
+
+Use this procedure to learn how to assign an administrative role to a user in Azure Active Directory (Azure AD):
+
+1. Sign in to the [Azure AD admin center](https://aad.portal.azure.com/) with an account that's a global administrator for the directory.
+
+2. Follow the steps to [Assign an Azure AD RBAC](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-users-assign-role-azure-portal) role o a user. 
+
+
+## Next Steps
