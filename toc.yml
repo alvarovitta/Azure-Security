@@ -1,7 +1,7 @@
 - name: Azure Security
   href: /nmcgregor/Azure-Security/blob/master/index.md
   items:
-  - name: Identifying your Business Requirements
+  - name: Identifying your Azure Security Business Requirements
     href: /nmcgregor/Azure-Security/blob/master/1.0-Identifying-your-Business-Requirements.md
     items:
       - name: Evaluating your On-Premise Security Policies
