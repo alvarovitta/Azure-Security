@@ -44,6 +44,10 @@
         items:
           - name: Designing your Delegation Model
             href: /nmcgregor/Azure-Security/blob/master/4.2.1-Design-your-Delegation-Model.md
+          - name: Top 5 Azure AD RBAC Roles
+            href: /nmcgregor/Azure-Security/blob/master/4.2.2-Top-5-Azure-AD-RBAC-Roles
+          - name: Top 10 Azure AD RBAC Roles
+            href: /nmcgregor/Azure-Security/blob/master/4.2.3-Top-10-Built-In-Azure-RBAC-Roles
      - name: Monitoring and Alerting
         href: /nmcgregor/Azure-Security/blob/master/4.3-Monitoring-and-Alerting.md
       - name: Business Continuity
