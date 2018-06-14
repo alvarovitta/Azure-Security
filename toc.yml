@@ -1,62 +1,62 @@
 - name: Azure Security
-  href: /nmcgregor/Azure-Security/blob/master/index.md
+  href: /alvarovitta/Azure-Security/blob/master/index.md
   items:
   - name: Identifying your Azure Security Business Requirements
-    href: /nmcgregor/Azure-Security/blob/master/1.0-Identifying-your-Business-Requirements.md
+    href: /alvarovitta/Azure-Security/blob/master/1.0-Identifying-your-Business-Requirements.md
     items:
       - name: Evaluating your On-Premise Security Policies
-        href: /nmcgregor/Azure-Security/blob/master/1.1-Evaluating-your-On-Premise-Security-Policies.md
+        href: /alvarovitta/Azure-Security/blob/master/1.1-Evaluating-your-On-Premise-Security-Policies.md
       - name: Evaluating your On-Premise Compliance Policies
-        href: /nmcgregor/Azure-Security/blob/master/1.2-Evaluating-your-On-Premise-Compliance-Policies.md
+        href: /alvarovitta/Azure-Security/blob/master/1.2-Evaluating-your-On-Premise-Compliance-Policies.md
   - name: Implementing your Azure Security Policies
-    href: /nmcgregor/Azure-Security/blob/master/2.0-Implementing-your-Azure-Security-Policies.md
+    href: /alvarovitta/Azure-Security/blob/master/2.0-Implementing-your-Azure-Security-Policies.md
     items:
       - name: Establishing your Security Baseline
-        href: /nmcgregor/Azure-Security/blob/master/2.1-Establishing-your-Security-Baseline.md
+        href: /alvarovitta/Azure-Security/blob/master/2.1-Establishing-your-Security-Baseline.md
       - name: Designing your Azure Security Policies
-        href: /nmcgregor/Azure-Security/blob/master/2.2-Designing-your-Azure-Security-Policies.md
+        href: /alvarovitta/Azure-Security/blob/master/2.2-Designing-your-Azure-Security-Policies.md
       - name: Top 10 Baseline Azure Security Policies
-        href: /nmcgregor/Azure-Security/blob/master/2.3-Top-10-Baseline-Azure-Security-Policies.md
+        href: /alvarovitta/Azure-Security/blob/master/2.3-Top-10-Baseline-Azure-Security-Policies.md
   - name: Securing your Azure Resources
-    href: /nmcgregor/Azure-Security/blob/master/3.0-Securing-your-Azure-Resources.md
+    href: /alvarovitta/Azure-Security/blob/master/3.0-Securing-your-Azure-Resources.md
     items:
       - name: Securing IaaS Resources
-        href: /nmcgregor/Azure-Security/blob/master/3.1-Securing-IaaS-Resources.md
+        href: /alvarovitta/Azure-Security/blob/master/3.1-Securing-IaaS-Resources.md
         items:
           - name: Securing Azure IaaS Workloads
-            href: /nmcgregor/Azure-Security/blob/master/3.1.1-Securing-Azure-IaaS-Workloads.md
+            href: /alvarovitta/Azure-Security/blob/master/3.1.1-Securing-Azure-IaaS-Workloads.md
       - name: Securing PaaS Resources
-        href: /nmcgregor/Azure-Security/blob/master/3.2-Securing-PaaS-Resources.md
+        href: /alvarovitta/Azure-Security/blob/master/3.2-Securing-PaaS-Resources.md
       - name: Securing your Network
-        href: /nmcgregor/Azure-Security/blob/master/3.3-Securing-your-Network.md  
+        href: /alvarovitta/Azure-Security/blob/master/3.3-Securing-your-Network.md  
       - name: Securing and Encrypting Data
-        href: /nmcgregor/Azure-Security/blob/master/3.4-Securing-and-Encrypting-Data.md  
+        href: /alvarovitta/Azure-Security/blob/master/3.4-Securing-and-Encrypting-Data.md  
   - name: Operationalizing Security
-    href: /nmcgregor/Azure-Security/blob/master/4.0-Operationalizing-Security.md
+    href: /alvarovitta/Azure-Security/blob/master/4.0-Operationalizing-Security.md
     items:
       - name: Authentication
-        href: /nmcgregor/Azure-Security/blob/master/4.1-Authentication.md
+        href: /alvarovitta/Azure-Security/blob/master/4.1-Authentication.md
         items:
           - name: Designing your Conditional Policies
-            href: /nmcgregor/Azure-Security/blob/master/4.1.1-Design-your-Conditional-Access-Policies.md
+            href: /alvarovitta/Azure-Security/blob/master/4.1.1-Design-your-Conditional-Access-Policies.md
       - name: Delegation
-        href: /nmcgregor/Azure-Security/blob/master/4.2-Delegation.md
+        href: /alvarovitta/Azure-Security/blob/master/4.2-Delegation.md
         items:
           - name: Designing your Delegation Model
-            href: /nmcgregor/Azure-Security/blob/master/4.2.1-Design-your-Delegation-Model.md
+            href: /alvarovitta/Azure-Security/blob/master/4.2.1-Design-your-Delegation-Model.md
           - name: Top 5 Azure AD RBAC Roles
-            href: /nmcgregor/Azure-Security/blob/master/4.2.2-Top-5-Azure-AD-RBAC-Roles
+            href: /alvarovitta/Azure-Security/blob/master/4.2.2-Top-5-Azure-AD-RBAC-Roles
           - name: Top 10 Azure AD RBAC Roles
-            href: /nmcgregor/Azure-Security/blob/master/4.2.3-Top-10-Built-In-Azure-RBAC-Roles
+            href: /alvarovitta/Azure-Security/blob/master/4.2.3-Top-10-Built-In-Azure-RBAC-Roles
      - name: Monitoring and Alerting
-        href: /nmcgregor/Azure-Security/blob/master/4.3-Monitoring-and-Alerting.md
+        href: /alvarovitta/Azure-Security/blob/master/4.3-Monitoring-and-Alerting.md
       - name: Business Continuity
-        href: /nmcgregor/Azure-Security/blob/master/4.4-Business-Continuity.md  
+        href: /alvarovitta/Azure-Security/blob/master/4.4-Business-Continuity.md  
       - name: Patching
-        href: /nmcgregor/Azure-Security/blob/master/4.5-Patching.md  
+        href: /alvarovitta/Azure-Security/blob/master/4.5-Patching.md  
       - name: Incident Response Management
-        href: /nmcgregor/Azure-Security/blob/master/4.6-Incident-Response-Management.md  
+        href: /alvarovitta/Azure-Security/blob/master/4.6-Incident-Response-Management.md  
       - name: Threat Management
-        href: /nmcgregor/Azure-Security/blob/master/4.7-Threat-Management.md  
+        href: /alvarovitta/Azure-Security/blob/master/4.7-Threat-Management.md  
       - name: Assume Breach Strategy
-        href: /nmcgregor/Azure-Security/blob/master/4.8-Assume-Breach-Strategy.md
+        href: /alvarovitta/Azure-Security/blob/master/4.8-Assume-Breach-Strategy.md
