@@ -14,7 +14,7 @@ The content in this guide is appropriate for use by (but not strictly limited to
 <br />
 <br />
 
-## Security
+## Designing and implementing security
 Use the following processes in sequence to design and implement security on your system resources:
 
   1. [Identifying your Business Requirements](1.0-Identifying-your-Business-Requirements.md): Use the information in this section to analyze and evaluate your organization's business requirements. Your business requirements drive the underlying security architecture of your Azure cloud services. Analyze your requirements and plan your security framework accordingly.  
