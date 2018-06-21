@@ -1,5 +1,5 @@
 # About this Guide
-Use the information in this guide to plan, configure and implement security on your system resources using Security Center. 
+Use the information in this guide to plan, configure and implement security on your system resources. 
 <br />
 <br />
 This guide provides practical advice to help you make appropriate decisions when planning and implementing your organization's security strategy. 
