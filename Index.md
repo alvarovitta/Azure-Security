@@ -23,7 +23,7 @@ Use the following processes in sequence to design and implement security on your
 
   3. [Securing your Azure Resources](3.0-Securing-your-Azure-Resources.md): Use the information in this section to secure your Azure Iaas, PaaS resources. Determine the possible states in which your data may occur, and the controls available for that state.
 	
-  4. [Operationalizing Security](4.0-Operationalizing-Security.md):  se the information described in this section to design, configure and operationalize your Azure network security. 
+  4. [Operationalizing Security](4.0-Operationalizing-Security.md):  Use the information described in this section to design, configure and operationalize your Azure network security. 
 
 <br />
 <br />
